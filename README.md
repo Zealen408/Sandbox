@@ -1,3 +1,3 @@
 # genarator
 
-Just looking at the set up genarators in python3
+Just looking at the set up for genarators in python3
