@@ -13,10 +13,10 @@ def fibGen():
     prev = 0
     # loop controlled with call to function, can be placed with for loop and pass a count to the function for range() to use.
     while True:
-        x = current+prev
+        next_val = current+prev
         prev = current
-        current = x
-        yield x
+        current = next_val
+        yield next_val
         
     
 
