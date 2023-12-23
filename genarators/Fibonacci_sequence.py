@@ -11,7 +11,7 @@ import sys
 def fibGen():
     current = 1
     prev = 0
-    # loop controlled with call to function, can be placed with for loop and pass a count to the function for range() to use.
+    # loop controlled with call to function, can be replaced with for loop and pass a count to the function for range() to use.
     while True:
         next_val = current+prev
         prev = current
